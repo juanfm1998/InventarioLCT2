@@ -25,7 +25,7 @@
        $media_id = remove_junk($db->escape($_POST['product-photo']));
      }
      $e_date    = make_date();
-
+//qweqweqwe
     $consulta = "SELECT quantity FROM producto WHERE id = '{$e_name}'";
     $resultado = $db -> query($consulta);
     $fila = $resultado->fetch_assoc();
